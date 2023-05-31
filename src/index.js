@@ -1,10 +1,14 @@
 import React from "react";
 import  ReactDom from "react-dom";
 
-function Greeting(){
+function BookList(){
 
-  return <h4>hi this is my first component</h4>
+  return(
+   <section>
+    This is book list
+   </section> 
+    )
 }
 
 
-ReactDom.render(<Greeting />,document.getElementById('root'))
+ReactDom.render( <BookList />,document.getElementById('root'))
